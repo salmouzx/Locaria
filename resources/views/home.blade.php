@@ -4,7 +4,7 @@
 
 <!-- HERO -->
 <section class="hero">
-    <img src="{{ asset('images/bg.jpg') }}" class="hero-img">
+    <img src="{{ asset('images/bg.jpg') }}" loading="lazy" class="hero-img">
     <div class="hero-text">
         <h1>Eksplorasi Lokal,<br>Raih Keuntungan</h1>
         <p>Temukan rekomendasi UMKM terbaik</p>
@@ -22,7 +22,7 @@
         </p>
     </div>
     <div class="about-img">
-        <img src="{{ asset('images/tugu.jpg') }}">
+        <img src="{{ asset('images/garuda.jpg') }}" loading="lazy">
     </div>
 </section>
 
@@ -31,7 +31,7 @@
     <h2>Tongkrongan Populer</h2>
 
     <div class="cards">
-        @foreach($tongkrongan as $item)
+        @foreach($tongkrongan ?? [] as $item)
         <div class="card">
             <img src="{{ asset('images/' . $item['gambar']) }}">
             <div class="card-body">
@@ -50,26 +50,46 @@
     <p>Nikmati promo gila yang membuat anda menghabiskan uang tanpa perasaan</p>
 
     <div class="promo-box">
-        <div class="promo-items">
+
+        <button class="scroll-btn left" onclick="scrollPromo(-1)">‹</button>
+
+        <div class="promo-items" id="promoSlider">
             <div class="promo-item">
-                <img src="{{ asset('images/promo1.jpg') }}">
-                <span>Nama</span>
+                <img src="{{ asset('images/aksata.jpg') }}">
+                <span>Burjo Aksata</span>
             </div>
             <div class="promo-item">
-                <img src="{{ asset('images/promo2.jpg') }}">
-                <span>Nama</span>
+                <img src="{{ asset('images/burketsu.jpg') }}">
+                <span>Burketsu</span>
             </div>
             <div class="promo-item">
-                <img src="{{ asset('images/promo3.jpg') }}">
-                <span>Nama</span>
+                <img src="{{ asset('images/burjoteko.jpg') }}">
+                <span>Burjo Teko</span>
             </div>
             <div class="promo-item">
-                <img src="{{ asset('images/promo4.jpg') }}">
-                <span>Nama</span>
+                <img src="{{ asset('images/akhtara.jpg') }}">
+                <span>Akhtara Coffee</span>
+            </div>
+            <div class="promo-item">
+                <img src="{{ asset('images/temannongkrong.jpg') }}">
+                <span>Teman Nongkrong</span>
+            </div>
+            <div class="promo-item">
+                <img src="{{ asset('images/runa.jpg') }}">
+                <span>Runa Coffee</span>
+            </div>
+            <div class="promo-item">
+                <img src="{{ asset('images/markaz.jpg') }}">
+                <span>Warmindo Markazz</span>
+            </div>
+            <div class="promo-item">
+                <img src="{{ asset('images/warmindo48.jpg') }}">
+                <span>Warmino 48 UNNES</span>
             </div>
         </div>
 
-        <button class="btn-promo">Selengkapnya ></button>
+        <button class="scroll-btn right" onclick="scrollPromo(1)">›</button>
+
     </div>
 </section>
 
@@ -78,7 +98,7 @@
     <div class="footer-container">
 
         <div class="footer-left">
-            <h2>LocaRia</h2>
+            <h2>Locaria</h2>
             <p>
                 Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru
                 dengan poin reward dan promo menarik setiap hari.
@@ -95,10 +115,10 @@
         <div class="footer-right">
             <h3>Galeri</h3>
             <div class="gallery">
-                <img src="{{ asset('images/g1.jpg') }}">
-                <img src="{{ asset('images/g2.jpg') }}">
-                <img src="{{ asset('images/g3.jpg') }}">
-                <img src="{{ asset('images/g4.jpg') }}">
+                <img src="{{ asset('images/runa.jpg') }}">
+                <img src="{{ asset('images/temannongkrong.jpg') }}">
+                <img src="{{ asset('images/burketsu.jpg') }}">
+                <img src="{{ asset('images/markaz.jpg') }}">
             </div>
         </div>
 
@@ -110,3 +130,17 @@
 </footer>
 
 @endsection
+
+@push('scripts')
+<script>
+function scrollPromo(direction) {
+    const container = document.getElementById('promoSlider');
+    const cardWidth = 170; // 150px + gap
+
+    container.scrollBy({
+        left: direction * cardWidth,
+        behavior: 'smooth'
+    });
+}
+</script>
+@endpush

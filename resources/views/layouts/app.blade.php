@@ -8,17 +8,47 @@
 <body>
 
 <nav class="navbar">
-    <div class="logo">LocaRia</div>
+    <div class="logo">Locaria</div>
     <ul>
-        <li>Beranda</li>
-        <li>Tongkrongan</li>
-        <li>Promo</li>
-        <li>Menu</li>
-        <li>Akun</li>
+        <li>
+            <a href="{{ route('beranda') }}" 
+            class="{{ request()->is('/') ? 'active' : '' }}">
+            Beranda
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('tongkrongan') }}" 
+            class="{{ request()->is('tongkrongan') ? 'active' : '' }}">
+            Tongkrongan
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('promo') }}" 
+            class="{{ request()->is('promo') ? 'active' : '' }}">
+            Promo
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('menu') }}" 
+            class="{{ request()->is('menu') ? 'active' : '' }}">
+            Menu
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ route('akun') }}" 
+            class="{{ request()->is('akun') ? 'active' : '' }}">
+            Akun
+            </a>
+        </li>
     </ul>
 </nav>
 
 @yield('content')
+@stack('scripts')
 
 </body>
 </html>
