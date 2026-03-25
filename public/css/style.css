@@ -47,34 +47,49 @@ body {
 /* HERO */
 .hero {
     position: relative;
+    height: 500px;
 }
 
 .hero-img {
     width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: cover;
-    filter: brightness(70%);
-    display: block;
 }
 
+/* 🔥 GRADIENT OVERLAY (INI KUNCINYA) */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.6) 0%,   /* kiri gelap */
+        rgba(0,0,0,0.3) 30%,
+        rgba(255,255,255,0.9) 70%, /* mulai putih */
+        #f5e1d3 100% /* kanan full warna background */
+    );
+}
+
+/* TEXT PINDAH KE KANAN */
 .hero-text {
     position: absolute;
-    top: 30%;
-    left: 60px;
-    color: white;
+    top: 50%;
+    right: 80px;   /* 🔥 pindah ke kanan */
+    transform: translateY(-50%);
+    color: #5a4636; /* coklat */
+    text-align: left;
 }
 
 .hero-text h1 {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
 }
 
-.hero-text button {
-    padding: 10px 20px;
-    border: none;
-    background: #fff;
-    border-radius: 20px;
-    cursor: pointer;
+.hero-text p {
+    margin: 5px 0;
 }
 
 /* --- BAGIAN ABOUT --- */
@@ -92,7 +107,7 @@ body {
 .about img {
     width: 500px;
     height: auto; 
-    border-radius: 0;
+    border-radius: 30px;
     display: block; 
     flex-shrink: 0; 
 }
@@ -239,7 +254,7 @@ body {
 
 .gallery img {
     width: 100%;
-    height: 80px;
+    height: 100px;
     object-fit: cover;
 }
 
@@ -247,4 +262,12 @@ body {
     margin-top: 20px;
     text-align: center;
     font-size: 12px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
 }

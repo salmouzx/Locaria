@@ -5,16 +5,15 @@
 <!-- HERO -->
 <section class="hero">
     <img src="{{ asset('images/bg.jpg') }}" loading="lazy" class="hero-img">
-    <div class="hero-text">
+    <div class="hero-text" style="left:60px; right:auto; color:white;">
         <h1>Eksplorasi Lokal,<br>Raih Keuntungan</h1>
         <p>Temukan rekomendasi UMKM terbaik</p>
-        <button>Lihat Tongkrongan</button>
     </div>
 </section>
 
 <!-- ABOUT -->
 <section class="about">
-    <div class="about-text">
+    <div class="about-text" >
         <h2>Locaria</h2>
         <p>
             Locaria hadir untuk membantu menemukan UMKM sekitar.
@@ -54,22 +53,34 @@
         <button class="scroll-btn left" onclick="scrollPromo(-1)">‹</button>
 
         <div class="promo-items" id="promoSlider">
-            <div class="promo-item">
-                <img src="{{ asset('images/aksata.jpg') }}">
-                <span>Burjo Aksata</span>
-            </div>
-            <div class="promo-item">
-                <img src="{{ asset('images/burketsu.jpg') }}">
-                <span>Burketsu</span>
-            </div>
-            <div class="promo-item">
-                <img src="{{ asset('images/burjoteko.jpg') }}">
-                <span>Burjo Teko</span>
-            </div>
-            <div class="promo-item">
-                <img src="{{ asset('images/akhtara.jpg') }}">
-                <span>Akhtara Coffee</span>
-            </div>
+            <a href="{{ route('aksata') }}">
+                <div class="promo-item">
+                    <img src="{{ asset('images/aksata.jpg') }}">
+                    <span>Burjo Aksata</span>
+                </div>
+            </a>
+
+            <a href="{{ route('burketsu') }}">
+                <div class="promo-item">
+                        <img src="{{ asset('images/burketsu.jpg') }}">
+                        <span>Burketsu</span>
+                </div>
+            </a>
+
+            <a href="{{ route('burjoteko') }}">
+                <div class="promo-item">
+                    <img src="{{ asset('images/burjoteko.jpg') }}">
+                    <span>Burjo Teko</span>
+                </div>
+            </a>
+
+            <a href="{{ route('akhtara') }}">
+                <div class="promo-item">
+                    <img src="{{ asset('images/akhtara.jpg') }}">
+                    <span>Akhtara Coffee</span>
+                </div>
+            </a>
+
             <div class="promo-item">
                 <img src="{{ asset('images/temannongkrong.jpg') }}">
                 <span>Teman Nongkrong</span>
