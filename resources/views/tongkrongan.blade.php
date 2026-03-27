@@ -5,8 +5,9 @@
 <div class="flex flex-col min-h-screen bg-[#FDF8F4] text-[#5A3D2B] font-sans">
 
     <div class="flex-grow">
-        
         <section class="relative w-full h-[250px] flex items-center justify-center overflow-hidden bg-[#D5C3B3] group z-0">
+        <section class="relative w-full h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden bg-[#D5C3B3] group z-0">
+
 
             <div id="heroSlider" class="absolute inset-0 w-full h-full flex overflow-x-auto scroll-smooth snap-x snap-mandatory z-0 no-scrollbar">
                 
@@ -26,7 +27,7 @@
                 </div>
 
             </div>
-
+            </div>
             <h1 class="relative text-5xl md:text-7xl font-extrabold text-white tracking-widest drop-shadow-lg shadow-black/50 z-10 pointer-events-none">
                 Tongkrongan
             </h1>
@@ -55,6 +56,24 @@
             <div class="text-center mb-10">
                 <h2 class="text-3xl font-bold mb-2 text-[#5A3D2B]">Mitra Kami</h2>
                 <p class="text-sm text-[#5A3D2B]/80 font-medium">Mitra ini adalah UMKM lokal</p>
+            </div>
+
+            <div class="flex justify-center items-center gap-3 mb-10 max-w-4xl mx-auto">
+                <div class="flex-1 bg-white border border-[#D5C3B3] rounded-md px-4 py-2 shadow-sm">
+                    <input type="text" placeholder="Nama" class="w-full bg-transparent outline-none text-[#5A3D2B] placeholder-[#5A3D2B]/50">
+                </div>
+                
+                <button class="bg-[#B57A4E] text-white p-2.5 rounded-md hover:bg-[#96633D] transition flex items-center justify-center w-11 h-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z" />
+                    </svg>
+                </button>
+                
+                <button class="bg-[#B57A4E] text-white p-2.5 rounded-md hover:bg-[#96633D] transition flex items-center justify-center w-11 h-11">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </button>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -119,11 +138,11 @@
                         <h3 class="font-bold text-lg mb-2">Akhtara Coffee</h3>
                         <div class="flex items-start gap-1.5 text-[11px] leading-tight mb-2 text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mt-0.5 shrink-0"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
-                            <p>Jl. Cemp. Sari IV, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
+                            <p>Jl. Cemp. Sari V, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                            <p>16.00 - 23.00</p>
+                            <p>16.00 - 20.00</p>
                         </div>
                     </div>
                     <div class="absolute bottom-4 right-4 text-[#5A3D2B]/60 group-hover:text-[#B57A4E] transition">
@@ -159,7 +178,7 @@
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                            <p>10.00 - 23.30</p>
+                            <p>10.00 - 23.00</p>
                         </div>
                     </div>
                     <div class="absolute bottom-4 right-4 text-[#5A3D2B]/60 group-hover:text-[#B57A4E] transition">
@@ -173,7 +192,7 @@
                         <h3 class="font-bold text-lg mb-2">Warmindo Markazzz</h3>
                         <div class="flex items-start gap-1.5 text-[11px] leading-tight mb-2 text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mt-0.5 shrink-0"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
-                            <p>Jl. Ampel Gading Raya, Kalisegoro, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
+                            <p>Jl. Ampel Gading Raya, Kalisegoro, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50228</p>
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>

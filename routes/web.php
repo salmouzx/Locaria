@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+
+// --- Rute lainnya biarkan saja seperti semula ---
 Route::get('/tongkrongan', function () {
     return view('tongkrongan');
 })->name('tongkrongan');

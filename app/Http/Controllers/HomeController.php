@@ -35,12 +35,22 @@ class HomeController extends Controller
 
         // LOGIKA SORTING RATING TERTINGGI:
         // Ubah array jadi collection -> urutkan rating terbesar -> ambil 3 -> kembalikan jadi array
+<<<<<<< HEAD
         $tongkronganPopuler = Umkm::withAvg('reviews', 'rating')
             ->orderByDesc('reviews_avg_rating')
             ->take(3)
             ->get();
 
         // 3. Kirim ke view (pastikan nama view-nya sesuai dengan punyamu)
+=======
+        $tongkronganPopuler = collect($dataUmkm)
+            ->sortByDesc('rating')
+            ->take(3)
+            ->values()
+            ->all();
+
+        // Lempar variabel ke view
+>>>>>>> f612f9f0e505a9e974f9ce564797ae5098e906d6
         return view('home', compact('tongkronganPopuler'));
     }
 }
