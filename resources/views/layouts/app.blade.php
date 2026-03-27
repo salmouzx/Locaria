@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <title>Locaria</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-
 <nav class="navbar">
     <div class="logo">Locaria</div>
     <ul>
         <li>
-            <a href="{{ route('beranda') }}" 
+            <a href="{{ route('home') }}" 
             class="{{ request()->is('/') ? 'active' : '' }}">
             Beranda
             </a>
@@ -32,9 +32,9 @@
         </li>
 
         <li>
-            <a href="{{ route('menu') }}" 
-            class="{{ request()->is('menu') ? 'active' : '' }}">
-            Menu
+            <a href="{{ route('misi') }}" 
+            class="{{ request()->is('misi') ? 'active' : '' }}">
+            Misi
             </a>
         </li>
 

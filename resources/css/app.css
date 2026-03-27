@@ -9,3 +9,167 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+/* Import Google Font jika mau fontnya rapi */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+:root {
+    --bg-main: #FCF5EB;
+    --text-dark: #5D4037;
+    --text-muted: #8D6E63;
+    --card-bg: #FDF8F5;
+    --card-border: #EFEBE9;
+    --btn-bg: #BCAAA4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-dark);
+}
+
+/* HERO */
+.hero-section {
+    position: relative;
+    height: 250px;
+    background-color: #ccc; /* Nanti hapus ini kalau gambarnya udah ada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #F5DAC8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin: 0;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.section-header {
+    text-center: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-header h2 {
+    font-size: 2rem;
+    color: #6D4C41;
+    margin: 0 0 5px 0;
+}
+.section-header p {
+    margin: 0;
+    color: var(--text-muted);
+}
+
+/* SEARCH & FILTER */
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.search-input {
+    padding: 12px 20px;
+    border: 1px solid #D7CCC8;
+    border-radius: 8px;
+    width: 300px;
+    font-family: inherit;
+    outline: none;
+}
+.search-input:focus {
+    border-color: var(--text-muted);
+}
+.icon-btn {
+    background-color: var(--btn-bg);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* CARDS GRID */
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .cards-grid {
+        grid-template-columns: 1fr; /* Jadi 1 kolom kalau di HP */
+    }
+}
+
+/* CARD ITEM */
+.mitra-card {
+    display: flex;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 15px;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.mitra-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.card-img-placeholder {
+    width: 130px;
+    height: 110px;
+    background-color: #d1d5db; /* Abu-abu placeholder */
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+.card-info {
+    padding-left: 15px;
+    padding-right: 35px; /* Spasi buat panah kanan */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    color: #5D4037;
+}
+.card-info p {
+    margin: 0 0 6px 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    line-height: 1.4;
+}
+.card-info svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+.card-arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: var(--btn-bg);
+}
+.card-arrow svg {
+    width: 24px;
+    height: 24px;
+}
