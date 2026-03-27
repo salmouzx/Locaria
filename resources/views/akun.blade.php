@@ -4,7 +4,7 @@
 
 <div class="relative w-full min-h-screen flex flex-col items-center justify-center p-6">
     
-    <img src="" alt="Background Login" loading="lazy" class="absolute inset-0 w-full h-full object-cover bg-gray-500">
+    <img src="images/bg-login.jpg" alt="Background Login" loading="lazy" class="absolute inset-0 w-full h-full object-cover bg-gray-500">
     
     <div class="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
 
@@ -21,7 +21,7 @@
                     LR
                 </div>
                 <h2 class="font-extrabold text-xl text-[#5A3D2B] leading-tight">
-                    Loca<br>Ria
+                    Locaria
                 </h2>
             </div>
 

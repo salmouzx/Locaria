@@ -40,7 +40,7 @@
 
         <li>
             @guest
-        <a href="{{ route('login') }}" class="px-4 py-2 bg-[#7D5A44] text-white rounded-md">
+        <a href="{{ route('login') }}" class="px-4 py-2 bg-[#7D5A44] !text-white rounded-md" >
             Login / Daftar
         </a>
     @endguest

@@ -5,7 +5,7 @@
 <div class="bg-[#FDF8F4] min-h-screen text-[#5A3D2B] font-sans pb-10 scroll-smooth">
 
     <section class="relative w-full h-[250px] flex items-center justify-center overflow-hidden bg-[#D5C3B3]">
-        <img src="images/promo1.jpg" alt="Promo Background" loading="lazy" class="absolute inset-0 w-full h-full object-cover">
+        <img src="images/bg-promo.jpg" alt="Promo Background" loading="lazy" class="absolute inset-0 w-full h-full object-cover">
         <div class="absolute inset-0 bg-white/30"></div> 
         
         <h1 class="relative text-5xl md:text-6xl font-bold text-white tracking-widest drop-shadow-lg shadow-black/50 z-10">
@@ -45,7 +45,7 @@
                         <img src="images/susukopies.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Susu Kopi Es</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 8.000 > 8 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 8.000 + 8 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Perpaduan klasik espresso pekat dengan susu segar yang creamy, disajikan dingin dengan es. Cocok untuk menemani harimu yang butuh tambahan energi dengan rasa yang smooth dan manis yang pas.</p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                         <img src="images/icecberrytea.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Mix Berry Tea</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 10.000 > 10 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 10.000 + 10 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Kesegaran teh pilihan yang dipadukan dengan manis-asamnya buah beri asli. Minuman ringan yang menyegarkan dahaga dan memberikan sensasi fruity yang ceria di setiap tegukannya</p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                         <img src="images/matcha.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Matcha</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 15.000 > 15 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 15.000 + 15 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Racikan teh hijau matcha autentik Jepang dengan susu creamy. Menghadirkan rasa earthy yang menenangkan dipadu dengan manis yang lembut, cocok untuk kamu penikmat teh hijau.</p>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                         <img src="images/iceberrycoffee.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Ice Berry Coffee</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 20.000 > 20 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 20.000 + 20 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Kombinasi unik yang mengejutkan! Perpaduan espresso yang kuat dengan sirup buah beri yang manis dan segar, ditambah susu creamy. Sensasi rasa yang bold sekaligus fruity, bikin nagih.</p>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                         <img src="images/Nasi_telor_sarden.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Nasi Telor Sarden</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 10.000 > 10 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 10.000 + 10 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Perpaduan klasik ala anak kos yang selalu bikin rindu! Nasi putih hangat disajikan dengan telur dadar gurih dan sarden bumbu tomat yang kaya rasa. Sederhana, mengenyangkan, dan pastinya nikmat.</p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                         <img src="images/Nasi_orak_arik_ayam.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Nasi Orak Arik Ayam</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 13.000 > 13 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 13.000 + 13 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Tumisan ayam cincang yang dimasak orak-arik dengan racikan bumbu manis gurih dan irisan cabai segar. Disajikan mengelilingi seporsi nasi hangat, dijamin bikin tiap suapan terasa pas dan nendang di lidah.</p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                         <img src="images/Nasi_omellte_komplit.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Nasi Omellete Komplit</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 12.000 > 12 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 12.000 + 12 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Penyelamat perut keroncongan! Telur dadar tebal (omelet) yang dimasak dengan isian potongan sosis gurih, disiram saus lezat, lengkap dengan nasi putih dan tambahan kerupuk renyah.</p>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         <img src="images/Nasi_sarden_omellete.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Nasi Omellete Sarden</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 15.000 > 15 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 15.000 + 15 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Level up dari menu sarden biasa! Omelet telur dadar yang tebal dan lembut berpadu sempurna dengan siraman ikan sarden berbumbu pekat. Kombinasi gurih dan nikmat yang bikin porsi makannya terasa ekstra memuaskan.</p>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                         <img src="images/ketan_ireng.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Bubur Ketan Ireng</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 8.000 > 8 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 8.000 + 8 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Manis legitnya bubur ketan hitam yang dimasak perlahan hingga empuk sempurna, disajikan dengan siraman santan kental yang gurih. Sangat cocok sebagai menu sarapan manis atau dessert penutup harimu.</p>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                         <img src="images/nasi_ayam_bali.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Nasi Ayam Bali</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 15.000 > 15 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 15.000 + 15 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Sajian lengkap yang siap mengenyangkan perutmu! Nasi putih hangat yang disajikan dengan aneka lauk pauk kaya rempah seperti sate lilit, ayam bumbu, telur rebus, dan sayur pelengkap. Pesta rasa dalam satu piring.</p>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                         <img src="images/Indomie_nyemek.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Indomie Nyemek</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 12.000 > 12 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 12.000 + 12 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Menu wajib andalan Warmindo! Mie goreng favorit sejuta umat yang dimasak pas, disajikan lengkap dengan sayuran segar, taburan bawang goreng renyah, dan telur. Sederhana, comforting, dan selalu bikin rindu.</p>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                         <img src="images/nasi_ayam_geprek.png" loading="lazy" class="w-28 h-28 object-cover rounded-xl shrink-0 bg-[#D5C3B3]/60 shadow-sm">
                         <div class="flex flex-col">
                             <h3 class="font-bold text-[16px]">Nasi Ayam Geprek</h3>
-                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 11.000 > 11 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
+                            <p class="text-[#B57A4E] font-bold text-sm mb-1 flex items-center gap-1">Rp 11.000 + 11 <svg class="w-5 h-5 text-[#5A3D2B]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2A10 10 0 1022 12 10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/><path d="M12 6a6 6 0 106 6 6.007 6.007 0 00-6-6zm0 10a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg></p>
                             <p class="text-[12px] text-[#5A3D2B]/80 leading-relaxed">Pecinta pedas wajib coba! Perpaduan krispinya ayam goreng tepung yang digeprek hancur bersama sambal bawang super pedas. Disajikan dengan nasi putih hangat dan lalapan segar. Dijamin bikin melek dan nambah porsi!</p>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-4">
                     <div class="w-10 h-10 bg-[#5A3D2B] rounded-full flex items-center justify-center text-white font-bold">LR</div>
-                    <h3 class="font-bold text-xl text-[#5A3D2B]">Loca Ria</h3>
+                    <h3 class="font-bold text-xl text-[#5A3D2B]">Locaria</h3>
                 </div>
                 <p class="text-sm text-[#5A3D2B]/80 leading-relaxed mb-6">
                     Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru dengan poin reward dan promo menarik setiap hari. Makin sering jajan lokal, makin banyak untungnya!
@@ -211,7 +211,7 @@
         </div>
 
         <div class="max-w-7xl mx-auto mt-10 pt-4 border-t border-[#5A3D2B]/20 text-xs text-[#5A3D2B]/80 flex flex-col md:flex-row justify-between items-center gap-2">
-            <p>© 2024 Loca Ria. All rights reserved.</p>
+            <p>© 2024 Locaria. All rights reserved.</p>
             <div class="space-x-4">
                 <a href="#" class="hover:underline">Terms and Conditions</a>
                 <a href="#" class="hover:underline">Privacy Policy</a>

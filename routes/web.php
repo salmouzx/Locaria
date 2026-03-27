@@ -3,13 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
-
-// --- INI YANG KITA PERBAIKI ---
-// Sekarang halaman utama (/) akan mengambil data dari HomeController
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-
-// --- Rute lainnya biarkan saja seperti semula ---
 Route::get('/tongkrongan', function () {
     return view('tongkrongan');
 })->name('tongkrongan');
@@ -17,6 +12,11 @@ Route::get('/tongkrongan', function () {
 Route::get('/promo', function () {
     return view('promo');
 })->name('promo');
+
+
+Route::get('/misi', function () {
+    return view('misi');
+})->name('misi');
 
 
 Route::get('/akun', function () {
@@ -31,8 +31,10 @@ Route::get('/teman-nongkrong', fn() => view('teman-nongkrong'))->name('teman-non
 Route::get('/runa-coffee', fn() => view('runa-coffee'))->name('runa-coffee');
 Route::get('/warmindo-markaz', fn() => view('warmindo-markaz'))->name('warmindo-markaz');
 Route::get('/warmindo48', fn() => view('warmindo48'))->name('warmindo48');
+Route::get('/promo', fn() => view('promo'))->name('promo');
 
 use App\Http\Controllers\ReviewController;
+
 // Rute untuk memproses data dari form ulasan
 Route::post('/review/store', [ReviewController::class, 'store'])->name('review.store');
 
@@ -113,3 +115,6 @@ Route::get('/misi/upload', [MissionVisitController::class, 'index'])->name('uplo
 // 2. Rute POST untuk MENYIMPAN data saat tombol submit ditekan
 Route::post('/misi/upload', [MissionVisitController::class, 'store'])->name('upload.store');
 Route::post('/misi/claim', [MissionVisitController::class, 'claimReward'])->name('misi.claim');
+
+Route::post('/review/store', [ReviewController::class, 'store'])->name('review.store');
+

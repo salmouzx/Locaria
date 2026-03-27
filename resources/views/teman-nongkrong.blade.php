@@ -40,9 +40,14 @@
                     </div>
                 </div>
 
-                <div class="w-full h-48 md:h-56 bg-gray-200 rounded-2xl overflow-hidden relative shadow-lg border border-[#FDF8F4]/20 mt-6">
-                    <iframe src="https://maps.google.com/maps?q=Teman+Nongkrong+Unnes+Semarang&t=&z=15&ie=UTF8&iwloc=&output=embed" class="absolute inset-0 w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                <a href="https://maps.google.com/?q=Teman+Nongkrong+Unnes+Semarang" loading="lazy" target="_blank">
+                            <iframe 
+                                src="https://maps.google.com/?q=Teman+Nongkrong+Unnes+Semarang&output=embed"
+                                width="575" 
+                                height="165" 
+                                style="border:0; border-radius:10px;">
+                            </iframe>
+                        </a>
             </div>
 
         </div>
@@ -54,7 +59,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-4">
                     <div class="w-10 h-10 bg-[#5A3D2B] rounded-full flex items-center justify-center text-white font-bold">LR</div>
-                    <h3 class="font-bold text-xl text-[#5A3D2B]">Loca Ria</h3>
+                    <h3 class="font-bold text-xl text-[#5A3D2B]">Locaria</h3>
                 </div>
                 <p class="text-sm text-[#5A3D2B]/80 leading-relaxed mb-6">
                     Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru dengan poin reward dan promo menarik setiap hari. Makin sering jajan lokal, makin banyak untungnya!
@@ -97,7 +102,7 @@
         </div>
 
         <div class="max-w-6xl mx-auto mt-10 pt-4 border-t border-[#5A3D2B]/20 text-xs text-[#5A3D2B]/80 flex flex-col md:flex-row justify-between items-center gap-2">
-            <p>© 2026 Loca Ria. All rights reserved.</p>
+            <p>© 2026 Locaria. All rights reserved.</p>
             <div class="space-x-4">
                 <a href="#" class="hover:underline">Terms and Conditions</a>
                 <a href="#" class="hover:underline">Privacy Policy</a>

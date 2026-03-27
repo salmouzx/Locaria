@@ -33,12 +33,14 @@
                         <p class="text-sm text-[#FDF8F4]/90">0896-8909-9899</p>
                     </div>
                 </div>
-                <div class="w-full h-40 bg-gray-200 rounded-xl overflow-hidden relative shadow-inner">
-                    <img src="" loading="lazy" class="w-full h-full object-cover bg-[#D5C3B3]">
-                    <div class="absolute inset-0 flex items-center justify-center text-[#5A3D2B] font-bold text-sm bg-white/40 backdrop-blur-sm">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5827923404668!2d110.38948611076086!3d-7.058208669140622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089b2fd78a11f%3A0xfbae42fd11b0bcdf!2sMarkazzz%20Warmindo!5e0!3m2!1sen!2sid!4v1774524741489!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>]
-                    </div>
-                </div>
+                 <a href="https://maps.google.com/?q=Markazzz+Warmindo" loading="lazy" target="_blank">
+                            <iframe 
+                                src="https://maps.google.com/?q=Markazzz+Warmindo&output=embed"
+                                width="575" 
+                                height="165" 
+                                style="border:0; border-radius:10px;">
+                            </iframe>
+                        </a>
             </div>
         </div>
     </section>
@@ -51,7 +53,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-4">
                     <div class="w-10 h-10 bg-[#5A3D2B] rounded-full flex items-center justify-center text-white font-bold">LR</div>
-                    <h3 class="font-bold text-xl text-[#5A3D2B]">Loca Ria</h3>
+                    <h3 class="font-bold text-xl text-[#5A3D2B]">Locaria</h3>
                 </div>
                 <p class="text-sm text-[#5A3D2B]/80 leading-relaxed mb-6">
                     Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru dengan poin reward dan promo menarik setiap hari. Makin sering jajan lokal, makin banyak untungnya!
@@ -99,7 +101,7 @@
 
         <!-- Copyright -->
         <div class="max-w-6xl mx-auto mt-10 pt-4 border-t border-[#5A3D2B]/20 text-xs text-[#5A3D2B]/80 flex flex-col md:flex-row justify-between items-center gap-2">
-            <p>© 2024 Loca Ria. All rights reserved.</p>
+            <p>© 2024 Locaria. All rights reserved.</p>
             <div class="space-x-4">
                 <a href="#" class="hover:underline">Terms and Conditions</a>
                 <a href="#" class="hover:underline">Privacy Policy</a>

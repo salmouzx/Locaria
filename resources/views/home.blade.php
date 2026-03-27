@@ -18,15 +18,10 @@
                         Temukan spot nongkrong asik, nikmati promo spesial, dan kumpulkan poin reward yang menguntungkan!
                     </p>
                     <a href="#tongkrongan"
-                        class="inline-block bg-[#FDF8F4] text-[#5A3D2B] font-bold px-6 py-2.5 rounded-full hover:bg-[#E8D5C4] transition shadow-md">
+                        class="inline-block bg-[#5A3D2B] text-white font-bold px-6 py-2.5 rounded-full 
+                        hover:bg-[#E8D5C4] hover:!text-[#5A3D2B] transition shadow-md">
                         Lihat Tongkrongan
                     </a>
-                </div>
-
-                <div class="absolute bottom-[-100px] md:bottom-[-150px] left-6 flex gap-2">
-                    <span class="w-3 h-3 rounded-full bg-white"></span>
-                    <span class="w-3 h-3 rounded-full bg-white/50 border border-white"></span>
-                    <span class="w-3 h-3 rounded-full bg-white/50 border border-white"></span>
                 </div>
             </div>
         </section>
@@ -124,34 +119,42 @@
                 <div class="bg-[#EADDCF] border-2 border-dashed border-[#8C6C54] rounded-xl p-8 md:p-12 relative">
 
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+                        <a href="{{ route('promo') ?? '#' }}" class="group block relative border border-[#D5C3B3] rounded-xl p-4 flex gap-4 bg-[#FDF8F4] hover:shadow-md transition">
+                            <div class="flex flex-col items-center">
+                                <div class="w-full aspect-square bg-gray-400 border-4 border-white shadow-sm mb-3">
+                                    <img src="images/temannongkrong.jpg" loading="lazy" class="w-full h-full object-cover">
+                                </div>
+                                <p class="font-bold text-[#5A3D2B]">Teman Nongkrong</p>
+                            </div>
+                        </a>
+                    <a href="{{ route('promo') ?? '#' }}" class="group block relative border border-[#D5C3B3] rounded-xl p-4 flex gap-4 bg-[#FDF8F4] hover:shadow-md transition">
+                        <div class="flex flex-col items-center">
+                                <div class="w-full aspect-square bg-gray-400 border-4 border-white shadow-sm mb-3">
+                                    <img src="images/aksata.jpg" loading="lazy" class="w-full h-full object-cover">
+                                </div>
+                                <p class="font-bold text-[#5A3D2B]">Burjo Aksata</p>
+                        </div>
+                    </a>
+                    <a href="{{ route('promo') ?? '#' }}" class="group block relative border border-[#D5C3B3] rounded-xl p-4 flex gap-4 bg-[#FDF8F4] hover:shadow-md transition">
+                        <div class="flex flex-col items-center">
+                                <div class="w-full aspect-square bg-gray-400 border-4 border-white shadow-sm mb-3">
+                                    <img src="images/warmindo48.jpg" loading="lazy" class="w-full h-full object-cover">
+                                </div>
+                                <p class="font-bold text-[#5A3D2B]">Warmindo 48 UNNES</p>
+                        </div>
+                    </a>
+                    <a href="{{ route('promo') ?? '#' }}" class="group block relative border border-[#D5C3B3] rounded-xl p-4 flex gap-4 bg-[#FDF8F4] hover:shadow-md transition">
                         <div class="flex flex-col items-center">
                             <div class="w-full aspect-square bg-gray-400 border-4 border-white shadow-sm mb-3">
-                                <img src="" loading="lazy" class="w-full h-full object-cover">
+                                <img src="images/markaz.jpg" loading="lazy" class="w-full h-full object-cover">
                             </div>
-                            <p class="font-bold text-[#5A3D2B]">Nama</p>
+                            <p class="font-bold text-[#5A3D2B]">Markazzz</p>
                         </div>
-                        <div class="flex flex-col items-center">
-                            <div class="w-full aspect-square bg-gray-400 border-4 border-white shadow-sm mb-3">
-                                <img src="" loading="lazy" class="w-full h-full object-cover">
-                            </div>
-                            <p class="font-bold text-[#5A3D2B]">Nama</p>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <div class="w-full aspect-square bg-gray-400 border-4 border-white shadow-sm mb-3">
-                                <img src="" loading="lazy" class="w-full h-full object-cover">
-                            </div>
-                            <p class="font-bold text-[#5A3D2B]">Nama</p>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <div class="w-full aspect-square bg-gray-400 border-4 border-white shadow-sm mb-3">
-                                <img src="" loading="lazy" class="w-full h-full object-cover">
-                            </div>
-                            <p class="font-bold text-[#5A3D2B]">Nama</p>
-                        </div>
+                    </a>
                     </div>
 
                     <div class="text-center">
-                        <a href="#"
+                        <a href="{{ route('promo') ?? '#' }}"
                             class="inline-block bg-[#8C6C54] text-white font-bold px-8 py-2.5 rounded-full hover:bg-[#5A3D2B] transition shadow-md text-sm">
                             Selengkapnya >
                         </a>
@@ -168,7 +171,7 @@
                         <div
                             class="w-10 h-10 bg-[#5A3D2B] rounded-full flex items-center justify-center text-white font-bold">
                             LR</div>
-                        <h3 class="font-bold text-xl text-[#5A3D2B]">Loca Ria</h3>
+                        <h3 class="font-bold text-xl text-[#5A3D2B]">Locaria</h3>
                     </div>
                     <p class="text-sm text-[#5A3D2B]/80 leading-relaxed mb-6">
                         Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru dengan poin reward dan
@@ -214,10 +217,10 @@
                 <div>
                     <h3 class="font-bold text-lg mb-4 text-[#5A3D2B]">Galeri</h3>
                     <div class="grid grid-cols-2 gap-2">
-                        <img src="" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
-                        <img src="" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
-                        <img src="" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
-                        <img src="" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
+                        <img src="images/runa.jpg" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
+                        <img src="images/garuda.jpg" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
+                        <img src="images/markaz.jpg" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
+                        <img src="images/burjoteko.jpg" loading="lazy" class="w-full h-20 md:h-24 object-cover rounded-md bg-[#D5C3B3]/50">
                     </div>
                 </div>
 
@@ -225,7 +228,7 @@
 
             <div
                 class="max-w-7xl mx-auto mt-10 pt-4 border-t border-[#5A3D2B]/20 text-xs text-[#5A3D2B]/80 flex flex-col md:flex-row justify-between items-center gap-2">
-                <p>© 2024 Loca Ria. All rights reserved.</p>
+                <p>© 2024 Locaria. All rights reserved.</p>
                 <div class="space-x-4">
                     <a href="#" class="hover:underline">Terms and Conditions</a>
                     <a href="#" class="hover:underline">Privacy Policy</a>

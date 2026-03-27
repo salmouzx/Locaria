@@ -5,7 +5,7 @@
     <div class="bg-[#FDF8F4] min-h-screen text-[#5A3D2B] font-sans pb-10 scroll-smooth">
 
         <section class="relative w-full h-[250px] flex items-center justify-center overflow-hidden bg-[#D5C3B3]">
-            <img src="images/ukara.jpg" alt="Misi Background" loading="lazy"
+            <img src="images/bg-misi.jpg" alt="Misi Background" loading="lazy"
                 class="absolute inset-0 w-full h-full object-cover">
             <div class="absolute inset-0 bg-white/30"></div>
 
@@ -99,7 +99,7 @@
             <div class="relative z-10">
                 <div class="text-center mb-8">
                     <h3 class="text-2xl md:text-3xl font-extrabold text-[#5A3D2B] mb-2">Beri Ulasanmu!</h3>
-                    <p class="text-sm text-[#5A3D2B]/80">Bantu tongkrongan favoritmu menjadi nomor 1 di Loca Ria.</p>
+                    <p class="text-sm text-[#5A3D2B]/80">Bantu tongkrongan favoritmu menjadi nomor 1 di Locaria.</p>
                 </div>
 
                 <form action="{{ route('review.store') }}" method="POST" class="space-y-6">
@@ -110,7 +110,7 @@
                         <div class="relative">
                             <select name="umkm_id" required
                                 class="w-full appearance-none border border-[#D5C3B3] bg-[#FDF8F4] rounded-xl px-4 py-3.5 outline-none focus:ring-2 focus:ring-[#8C6C54] text-[#5A3D2B] cursor-pointer">
-                                <option value="" disabled selected>-- Pilih Mitra Loca Ria --</option>
+                                <option value="" disabled selected>-- Pilih Mitra Locaria --</option>
                                 <option value="1">Burjo Aksata</option>
                                 <option value="2">Warmindo 48 UNNES</option>
                                 <option value="3">Teman Nongkrong</option>
@@ -172,7 +172,7 @@
                 <div class="flex items-center gap-2 mb-4">
                     <div class="w-10 h-10 bg-[#5A3D2B] rounded-full flex items-center justify-center text-white font-bold">
                         LR</div>
-                    <h3 class="font-bold text-xl text-[#5A3D2B]">Loca Ria</h3>
+                    <h3 class="font-bold text-xl text-[#5A3D2B]">Locaria</h3>
                 </div>
                 <p class="text-sm text-[#5A3D2B]/80 leading-relaxed mb-6">
                     Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru dengan poin reward dan promo

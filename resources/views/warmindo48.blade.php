@@ -33,12 +33,14 @@
                         <p class="text-sm text-[#FDF8F4]/90">0896-8909-9899</p>
                     </div>
                 </div>
-                <div class="w-full h-40 bg-gray-200 rounded-xl overflow-hidden relative shadow-inner">
-                    <img src="" loading="lazy" class="w-full h-full object-cover bg-[#D5C3B3]">
-                    <div class="absolute inset-0 flex items-center justify-center text-[#5A3D2B] font-bold text-sm bg-white/40 backdrop-blur-sm">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.7357331225644!2d110.38886311076061!3d-7.040312168952585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708bf89b97e7c9%3A0x42927a4398a99f6b!2sWarmindo%2048%20Unnes!5e0!3m2!1sen!2sid!4v1774526229844!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
+                <a href="https://maps.google.com/?q=Warmindo+48+Unnes" loading="lazy" target="_blank">
+                            <iframe 
+                                src="https://maps.google.com/?q=Warmindo+48+Unnes&output=embed"
+                                width="575" 
+                                height="165" 
+                                style="border:0; border-radius:10px;">
+                            </iframe>
+                        </a>
             </div>
         </div>
     </section>
@@ -48,7 +50,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-4">
                     <div class="w-10 h-10 bg-[#5A3D2B] rounded-full flex items-center justify-center text-white font-bold">LR</div>
-                    <h3 class="font-bold text-xl text-[#5A3D2B]">Loca Ria</h3>
+                    <h3 class="font-bold text-xl text-[#5A3D2B]">Locaria</h3>
                 </div>
                 <p class="text-sm text-[#5A3D2B]/80 leading-relaxed mb-6">Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru dengan poin reward dan promo menarik setiap hari.</p>
                 <div class="flex gap-4">

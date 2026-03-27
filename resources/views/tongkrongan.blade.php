@@ -6,7 +6,7 @@
 
     <div class="flex-grow">
         
-        <section class="relative w-full h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden bg-[#D5C3B3] group z-0">
+        <section class="relative w-full h-[250px] flex items-center justify-center overflow-hidden bg-[#D5C3B3] group z-0">
 
             <div id="heroSlider" class="absolute inset-0 w-full h-full flex overflow-x-auto scroll-smooth snap-x snap-mandatory z-0 no-scrollbar">
                 
@@ -57,24 +57,6 @@
                 <p class="text-sm text-[#5A3D2B]/80 font-medium">Mitra ini adalah UMKM lokal</p>
             </div>
 
-            <div class="flex justify-center items-center gap-3 mb-10 max-w-4xl mx-auto">
-                <div class="flex-1 bg-white border border-[#D5C3B3] rounded-md px-4 py-2 shadow-sm">
-                    <input type="text" placeholder="Nama" class="w-full bg-transparent outline-none text-[#5A3D2B] placeholder-[#5A3D2B]/50">
-                </div>
-                
-                <button class="bg-[#B57A4E] text-white p-2.5 rounded-md hover:bg-[#96633D] transition flex items-center justify-center w-11 h-11">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z" />
-                    </svg>
-                </button>
-                
-                <button class="bg-[#B57A4E] text-white p-2.5 rounded-md hover:bg-[#96633D] transition flex items-center justify-center w-11 h-11">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                    </svg>
-                </button>
-            </div>
-
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                 <a href="{{ route('aksata') ?? '#' }}" class="group block relative border border-[#D5C3B3] rounded-xl p-4 flex gap-4 bg-[#FDF8F4] hover:shadow-md transition">
@@ -83,7 +65,7 @@
                         <h3 class="font-bold text-lg mb-2">Burjo Aksata</h3>
                         <div class="flex items-start gap-1.5 text-[11px] leading-tight mb-2 text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mt-0.5 shrink-0"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
-                            <p>Jl. Emyrdianaman, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
+                            <p>Jl. Raya Banaran, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 52228</p>
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -101,7 +83,7 @@
                         <h3 class="font-bold text-lg mb-2">Burketsu</h3>
                         <div class="flex items-start gap-1.5 text-[11px] leading-tight mb-2 text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mt-0.5 shrink-0"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
-                            <p>Depan Alfamart Gym, Jl. Mawar Wetan, RT.1/RW.4, Dukuh Mawarwetan, Sekaran</p>
+                            <p>Depan Anhesa Gym, Jl. Kolonel Hardiyanto, Rt 3 rw 4, Dukuh Mbanaran, Sekaran, Kota Semarang, Jawa Tengah 50229</p>
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -119,7 +101,7 @@
                         <h3 class="font-bold text-lg mb-2">Burjo Teko</h3>
                         <div class="flex items-start gap-1.5 text-[11px] leading-tight mb-2 text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mt-0.5 shrink-0"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
-                            <p>Gg. Cemp. Sari No.20, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
+                            <p>Gg. Cemp. Sari No.35, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -137,11 +119,11 @@
                         <h3 class="font-bold text-lg mb-2">Akhtara Coffee</h3>
                         <div class="flex items-start gap-1.5 text-[11px] leading-tight mb-2 text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mt-0.5 shrink-0"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
-                            <p>Jl. Cemp. Sari V, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
+                            <p>Jl. Cemp. Sari IV, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                            <p>16.00 - 20.00</p>
+                            <p>16.00 - 23.00</p>
                         </div>
                     </div>
                     <div class="absolute bottom-4 right-4 text-[#5A3D2B]/60 group-hover:text-[#B57A4E] transition">
@@ -159,7 +141,7 @@
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                            <p>09.00 - 22.30</p>
+                            <p>09.00 - 22.00</p>
                         </div>
                     </div>
                     <div class="absolute bottom-4 right-4 text-[#5A3D2B]/60 group-hover:text-[#B57A4E] transition">
@@ -173,7 +155,7 @@
                         <h3 class="font-bold text-lg mb-2">Runa Coffee</h3>
                         <div class="flex items-start gap-1.5 text-[11px] leading-tight mb-2 text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mt-0.5 shrink-0"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
-                            <p>Jl. Manggis Raya No.105, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
+                            <p>Jl. Manggis Raya No.8 B, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229</p>
                         </div>
                         <div class="flex items-center gap-1.5 text-[11px] text-[#5A3D2B]/80">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -232,7 +214,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-4">
                     <div class="w-10 h-10 bg-[#5A3D2B] rounded-full flex items-center justify-center text-white font-bold">LR</div>
-                    <h3 class="font-bold text-xl text-[#5A3D2B]">Loca Ria</h3>
+                    <h3 class="font-bold text-xl text-[#5A3D2B]">Locaria</h3>
                 </div>
                 <p class="text-sm text-[#5A3D2B]/80 leading-relaxed mb-6">
                     Sahabat setia jelajah lokalmu! Cari tempat nongkrong asik jadi lebih seru dengan poin reward dan promo menarik setiap hari. Makin sering jajan lokal, makin banyak untungnya!
@@ -275,7 +257,7 @@
         </div>
 
         <div class="max-w-6xl mx-auto mt-10 pt-4 border-t border-[#5A3D2B]/20 text-xs text-[#5A3D2B]/80 flex flex-col md:flex-row justify-between items-center gap-2">
-            <p>© 2026 Loca Ria. All rights reserved.</p>
+            <p>© 2026 Locaria. All rights reserved.</p>
             <div class="space-x-4">
                 <a href="#" class="hover:underline">Terms and Conditions</a>
                 <a href="#" class="hover:underline">Privacy Policy</a>
